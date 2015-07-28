@@ -4,3 +4,4 @@ setupRequired(libevent)
 
 envPrepend(PATH, ${PRODUCT_DIR}/bin)
 envPrepend(MANPATH, ${PRODUCT_DIR}/man)
+envPrepend(PKG_CONFIG_PATH, ${PRODUCT_DIR}/lib/pkgconfig)
